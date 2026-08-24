@@ -29,11 +29,20 @@
 //     return a + b; // استفاده از return
 // }
 ////////////////////////////////////////////////////////////////////////
+// fn main() {
+//     let result = add_numbers_clean(10, 20);
+//     println!("نتیجه بدون return: {}", result);
+// }
+//
+// fn add_numbers_clean(a: i32, b: i32) -> i32 {
+//     a + b // دقت کنید: در اینجا علامت ; وجود ندارد!
+// }
+////////////////////////////////////////////////////////////////////////
 fn main() {
-    let result = add_numbers_clean(10, 20);
-    println!("نتیجه بدون return: {}", result);
+    let area = calculate_area(10.5, 20.4);
+    println!("نتیجه بدون return: {}", area);
 }
 
-fn add_numbers_clean(a: i32, b: i32) -> i32 {
-    a + b // دقت کنید: در اینجا علامت ; وجود ندارد!
+fn calculate_area(length: f64, width: f64) -> f64 {
+    length * width // بدون سمیکالن
 }
