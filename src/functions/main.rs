@@ -20,11 +20,20 @@
 //     println!("مجموع: {}", sum);
 // }
 ////////////////////////////////////////////////////////////////////////
+// fn main() {
+//     let result = add_numbers(10, 20);
+//     println!("نتیجه با return: {}", result);
+// }
+//
+// fn add_numbers(a: i32, b: i32) -> i32 {
+//     return a + b; // استفاده از return
+// }
+////////////////////////////////////////////////////////////////////////
 fn main() {
-    let result = add_numbers(10, 20);
-    println!("نتیجه با return: {}", result);
+    let result = add_numbers_clean(10, 20);
+    println!("نتیجه بدون return: {}", result);
 }
 
-fn add_numbers(a: i32, b: i32) -> i32 {
-    return a + b; // استفاده از return
+fn add_numbers_clean(a: i32, b: i32) -> i32 {
+    a + b // دقت کنید: در اینجا علامت ; وجود ندارد!
 }
