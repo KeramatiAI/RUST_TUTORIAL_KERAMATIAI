@@ -38,11 +38,20 @@
 //     a + b // دقت کنید: در اینجا علامت ; وجود ندارد!
 // }
 ////////////////////////////////////////////////////////////////////////
-fn main() {
-    let area = calculate_area(10.5, 20.4);
-    println!("نتیجه بدون return: {}", area);
+// fn main() {
+//     let area = calculate_area(10.5, 20.4);
+//     println!("نتیجه بدون return: {}", area);
+// }
+//
+// fn calculate_area(length: f64, width: f64) -> f64 {
+//     length * width // بدون سمیکالن
+// }
+///////////////////////////////////////////////////////////////////////
+fn main(){
+    //calling a function
+    fn_hello();
 }
-
-fn calculate_area(length: f64, width: f64) -> f64 {
-    length * width // بدون سمیکالن
+//Defining a function
+fn fn_hello(){
+    println!("hello from function fn_hello ");
 }
