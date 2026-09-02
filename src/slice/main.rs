@@ -1,5 +1,5 @@
 fn main() {
-    let n1 = "Tutorials".to_string();
+    let n1 = "Davoud Keramati is a programer".to_string();
     println!("length of string is {}",n1.len());
     let c1 = &n1[4..9];
 
