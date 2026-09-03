@@ -35,6 +35,9 @@ fn main() {
     // Float Types
     let _float_1: f32 = 123456789.123456789; //
     let _float_2: f64 = 123456789.123456789; //
+    // Char Types
+    let char_1: char = 'A'; // a A ... z Z and emoji 😊
+    let char_2: char = '😊';
 
     println!("value is: {}",_negative_bool);
     println!("value is: {}",_positive_bool);
@@ -53,4 +56,7 @@ fn main() {
 
     println!("value is: {}",_float_1);
     println!("value is: {}",_float_2);
+
+    println!("value is: {}",char_1);
+    println!("value is: {}",char_2);
 }
