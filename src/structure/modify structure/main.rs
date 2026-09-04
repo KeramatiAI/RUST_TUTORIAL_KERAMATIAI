@@ -5,7 +5,7 @@ struct Employee {
 }
 fn main() {
     let mut emp1 = Employee {
-        company:String::from("Davoud in a good boy."),
+        company:String::from("OpenAI"),
         name:String::from("Davoud"),
         age:50
     };
