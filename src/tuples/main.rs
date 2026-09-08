@@ -1,13 +1,13 @@
 fn main() {
-    // یک Tuple با انواع داده متفاوت
+    // A tuple with different data types
     let person: (&str, u32, bool) = ("Ali", 25, true);
 
-    // دسترسی به اعضای Tuple با استفاده از index
+    // Accessing tuple members using index
     println!("Name: {}", person.0);
     println!("Age: {}", person.1);
     println!("Is active: {}", person.2);
 
-    // Tuple تو در تو
+    // Nested tuple
     let coordinates: ((i32, i32), &str) = ((10, 20), "Tehran");
 
     println!("X: {}", coordinates.0.0);
