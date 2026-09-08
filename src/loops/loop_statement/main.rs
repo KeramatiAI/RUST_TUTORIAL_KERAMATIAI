@@ -1,5 +1,5 @@
 fn main(){
-    //while true
+    //while_statement true
 
     let mut x = 0;
     loop {

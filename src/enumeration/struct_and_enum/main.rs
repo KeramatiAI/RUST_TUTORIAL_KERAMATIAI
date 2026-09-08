@@ -25,4 +25,9 @@ fn main() {
     };
     println!("{:#?}", p1);
     println!("{:#?}", p2);
+    /*
+    Output
+    Person { name: "Mohtashim", gender: Male }
+    Person { name: "Amy", gender: Female }
+    */
 }

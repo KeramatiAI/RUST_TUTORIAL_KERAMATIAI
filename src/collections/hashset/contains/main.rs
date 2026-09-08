@@ -1,6 +1,6 @@
 /*
 contains() Function:
-Returns true if the set contains a value.
+Returns true if_statement the set contains a value.
 */
 use std::collections::HashSet;
 

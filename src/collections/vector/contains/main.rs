@@ -1,6 +1,6 @@
 /*
 Contains Function:
-Returns true if the slice contains
+Returns true if_statement the slice contains
 an element with the given value −
 */
 fn main() {

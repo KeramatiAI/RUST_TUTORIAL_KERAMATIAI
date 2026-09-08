@@ -1,6 +1,6 @@
 /*
 get() Function:
-Returns a reference to the value in the set, if any, which is equal to the given value.
+Returns a reference to the value in the set, if_statement any, which is equal to the given value.
 */
 use std::collections::HashSet;
 fn main() {

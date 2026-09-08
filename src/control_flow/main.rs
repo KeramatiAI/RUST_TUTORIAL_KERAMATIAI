@@ -1,19 +1,19 @@
 // fn main() {
 //     let number = 15;
 //
-//     // ۱. استفاده ساده از if/else
-//     if number < 10 {
+//     // ۱. استفاده ساده از if_statement/else
+//     if_statement number < 10 {
 //         println!("عدد کوچک است");
-//     } else if number == 15 {
+//     } else if_statement number == 15 {
 //         println!("عدد دقیقاً ۱۵ است");
 //     } else {
 //         println!("عدد بزرگ است");
 //     }
 //
-//     // ۲. استفاده از if به عنوان یک Expression (بسیار کاربردی!)
-//     // در Rust می‌توانید نتیجه یک if را مستقیماً در یک متغیر بریزید.
+//     // ۲. استفاده از if_statement به عنوان یک Expression (بسیار کاربردی!)
+//     // در Rust می‌توانید نتیجه یک if_statement را مستقیماً در یک متغیر بریزید.
 //     let condition = true;
-//     let number = if condition { 5 } else { 6 };
+//     let number = if_statement condition { 5 } else { 6 };
 //
 //     println!("مقدار عدد بر اساس شرط: {}", number);
 // }
@@ -21,11 +21,11 @@
 // fn main() {
 //     let mut counter = 0;
 //
-//     loop {
+//     loops {
 //         counter += 1;
 //         println!("تعداد: {}", counter);
 //
-//         if counter == 5 {
+//         if_statement counter == 5 {
 //             println!("رسیدیم به ۵، خارج می‌شویم!");
 //             break; // خروج از حلقه
 //         }
@@ -35,7 +35,7 @@
 // fn main() {
 //     let mut number = 3;
 //
-//     while number != 0 {
+//     while_statement number != 0 {
 //         println!("{}!", number);
 //         number -= 1;
 //     }
