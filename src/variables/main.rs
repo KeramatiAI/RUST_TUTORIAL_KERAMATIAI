@@ -1,14 +1,14 @@
 fn main() {
-    // تعریف یک متغیر تغییرناپذیر (پیش‌فرض)
+    // Define an immutable variable (default)
     let x = 5;
-    println!("مقدار متغیر x برابر است با: {}", x);
+    println!("The value of the variable x is: {}", x);
 
-    // اگر بخواهیم x را تغییر دهیم (مثلاً x = 6;) با خطا مواجه می‌شویم.
+    // If we try to change x (for example x = 6;) we will encounter an error.
 
-    // برای تعریف متغیر تغییرپذیر (Mutable) از کلمه کلیدی mut استفاده می‌کنیم
+    // To define a mutable variable (Mutable), we use the mut keyword
     let mut y = 10;
-    println!("مقدار اولیه y: {}", y);
+    println!("Initial value of y: {}", y);
 
-    y = 20; // حالا اجازه تغییر داریم
-    println!("مقدار جدید y: {}", y);
+    y = 20; // Now we are allowed to change
+    println!("New value of y: {}", y);
 }
